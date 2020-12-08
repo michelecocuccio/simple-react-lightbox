@@ -312,6 +312,10 @@ const SRLWrapper = ({
 
     // 1) Detected the type of element (if the user is using the "GALLERY" approach)
     function handleDetectTypeOfElements(array) {
+      if (!array) {
+        return;
+      }
+
       // Grabs images in the ref
       const collectedElements = array.querySelectorAll('img')
       // Filtered collected elemenets is used to exclude Gatsby images inside the <picture></picture> tag
