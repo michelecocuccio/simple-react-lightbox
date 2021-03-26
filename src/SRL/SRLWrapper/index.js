@@ -17,7 +17,8 @@ import {
   isImageByUser
 } from './detect_types'
 // IsEqual from lodash to do a deep comparison of the objects
-import { isEqual, isEmpty } from 'lodash'
+import isEqual from 'lodash.isequal'
+import isEmpty from 'lodash.isempty'
 
 const SRLWrapper = ({
   options,

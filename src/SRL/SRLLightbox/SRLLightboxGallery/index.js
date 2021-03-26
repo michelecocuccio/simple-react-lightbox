@@ -19,7 +19,7 @@ import { fullscreenError } from '../../SRLErrors'
 import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock'
 
 // Lodash helper
-import { findIndex } from 'lodash'
+import findIndex from 'lodash.findindex'
 
 // CONSTANTS
 const NEXT = 'next'
